@@ -32,13 +32,26 @@
 // }
 
 /**For in--------------->>> used for iteration in objects */
-studentDetails={
-    fname:"Alex Karp",
-    age:50,
-    education:"Standford Law",
-    cgpa:8.9,
-};
+// studentDetails={
+//     fname:"Alex Karp",
+//     age:50,
+//     education:"Standford Law",
+//     cgpa:8.9,
+// };
 
-for(key in studentDetails){
-    console.log(`${key}:${studentDetails[key]}`);
-}
+// for(key in studentDetails){
+//     console.log(`${key}:${studentDetails[key]}`);
+// }
+
+/**String */
+// let age=29;
+// let fname=`Apna\nCollege`;
+// console.log(fname);
+// console.log(fname[0]);
+// console.log(fname.length);
+
+/**String Methods*/
+
+let fname=`Alex ex ex`;
+let lname=` Karp`
+console.log(fname.replaceAll('ex','ax'));   
