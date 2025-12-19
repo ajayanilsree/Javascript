@@ -1,6 +1,15 @@
+/* body{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 div{
-    height: 150px;
-    width: 100%;
-    background-color: rgb(120, 128, 134);
-    color: black;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(9, 126, 216);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
