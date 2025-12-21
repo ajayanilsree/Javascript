@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    align-items: center;
+}
+.btn{
+    height: 50px;
+    width: 100px;
+    background-color: teal;
+    color: red;
+    font-weight: 900;
+    border: 2px solid black;
+}
+.dark{
+    background-color: black;
+}
